@@ -26,10 +26,17 @@
             <div class="container-default container-seletor-moedas">
                 <label for="moedasSelecionaveis"> Converter <strong>de</strong></label><br>
                 <select name="moedasSelecionaveis" id="moedasSelecionaveis">
-                    <option value="USD">R$ Dolar</option>
+                    <option value="USD">$ Dólar Americano</option>
                     <option value="EUR">€ Euro</option>
                     <option value="BTC">₿ Bitcoin</option>
                 </select>
+            </div>
+            <div id="container-recebe-valor">
+                    <label for="recebe-valor">Valor</label><br>
+                    <input type="text" id="recebe-valor" placeholder="R$10.000,00">
+            </div>
+            <div id="container-btn-converter">
+                <button type="submit" id="btn-converter">Converte</button>
             </div>
         </form>
     </div>
