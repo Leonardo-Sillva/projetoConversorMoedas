@@ -106,3 +106,12 @@ h1 {
     border: none;
     font-size: 1rem;
 }
+
+
+#container-mostra-valores-convertidos {
+    border: 1px solid #4383E2;
+    border-radius: 4px;
+    margin: 0.6rem 1.5rem;
+    height: 117.2rem;
+
+}
