@@ -1,9 +1,9 @@
 let valorDoSelectDeMoedas = document.getElementById('moedasSelecionaveis');
 const botaoDoFormulario = document.getElementById('btn-converter');
-const inputRecebeValor = document.getElementById('recebe-valor');
-
-
+let inputRecebeValor = document.getElementById('recebe-valor');
+let inputValorFinal;
 const calculoRelaçaoAMoeda = botaoDoFormulario.addEventListener('click', () => {
+    inputValorFinal = inputRecebeValor.value
     if(valorDoSelectDeMoedas.value === 'USD'){
         return console.log('é dolar');
     }else if(valorDoSelectDeMoedas.value === 'EUR') {
@@ -13,5 +13,4 @@ const calculoRelaçaoAMoeda = botaoDoFormulario.addEventListener('click', () => 
     }
 })
 
-console.log(calculoRelaçaoAMoeda);
 
