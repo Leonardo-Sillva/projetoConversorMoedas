@@ -57,7 +57,7 @@ h1 {
         border: 0.2px solid #77797b83;
         background-color: white;
         margin-top: 0.5rem;
-        box-shadow: 3px 3px 7px red;
+        box-shadow: 3px 3px 7px #77797B;
         appearance: none;
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -86,7 +86,7 @@ h1 {
     border: 0.2px solid #77797b83;
     background-color: white;
     margin-top: 0.5rem;
-    box-shadow: 3px 3px 7px red;
+    box-shadow: 3px 3px 7px #77797B;
     outline: none;
     padding: 1rem;
     &::placeholder {
